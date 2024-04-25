@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.heading{
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+    color:#5761B2;
+    background-color: white;
+        
+}
+
+
+.body{
+    background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+}
+.container{
+   
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    gap: 2.7rem;
+  margin-top: 10vmin;
+    
+}
+
+.game{
+display: flex;
+flex-wrap: wrap;
+gap: 1.2rem;
+height: 60vmin;
+width: 60vmin;
+align-items: center;
+justify-content: center;
+}
+
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 5rem  rgba(0,2,3,0.2);
+    border: 0.2rem solid rgb(97, 119, 142);
+    font-size: 40px;
+    color:lightseagreen;
+}
+
+#reset:hover{
+    background-color: lightsteelblue;
+    transition: 0.3s;
+}
+
+.msg{
+    color: darkred;
+    font-size: 30px;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: darkred;
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    height:20vmin;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.msg-container{
+    align-items: center;
+    height:20vmin;
+    justify-content: center;
+}
